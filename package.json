@@ -1,0 +1,27 @@
+{
+  "name": "js-to-typescript",
+  "version": "1.0.10",
+  "homepage": "https://js-to-typescript.netlify.app",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saba1121/js-to-typescirpt"
+  },
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "bin": {
+    "compilejs": "cli.js"
+  },
+  "keywords": [
+    "javascript to typescript",
+    "typescript",
+    "javascript",
+    "compile"
+  ],
+  "author": "Saba Silagadze",
+  "license": "ISC",
+  "dependencies": {
+    "babylon": "^7.0.0-beta.47",
+    "recast": "^0.20.4"
+  }
+}

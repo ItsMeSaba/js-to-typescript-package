@@ -2,12 +2,10 @@ const { addTypesToArrowFunction } = require('../addTypes/functions/addTypesToArr
 const { addVariableArrayType } = require('../addTypes/variables/addVariableArrayType');
 const { addVariableObjectType } = require('../addTypes/variables/addVariableObjectType');
 const { addVariableFunctionType } = require('../addTypes/variables/addVariableFunctionType');
-const { callExpression } = require('./callExpressions')
+const { callExpression } = require('./callExpressions');
 
 module.exports.variableDeclarations = function variableDeclarations(ref, i, loopBody) {
-    
     switch (ref[i.count].declarations[0].init.type) {
-        
         case 'ArrayExpression':
             addVariableArrayType(ref[i.count])
         break;

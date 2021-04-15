@@ -4,7 +4,7 @@
   "homepage": "https://js-to-typescript.netlify.app",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Saba1121/js-to-typescirpt"
+    "url": "git+https://github.com/Saba1121/js-to-typescript-package"
   },
   "description": "",
   "main": "index.js",

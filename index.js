@@ -12,7 +12,6 @@ Array.prototype.insert = function(index, item) {
 
 module.exports = function(input) {
     try {
-
         let tree = parse(input);        
         let ref = tree.program.body;
         
